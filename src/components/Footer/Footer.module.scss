@@ -1,0 +1,14 @@
+.footer{
+  background: rgba(192, 196, 206, 0.127321);
+  height: 73px;
+
+  & > div {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #C0C4CE;
+    font-size: 14.4px;
+    line-height: 17px;
+  }
+}

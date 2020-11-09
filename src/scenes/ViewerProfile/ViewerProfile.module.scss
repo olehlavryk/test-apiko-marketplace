@@ -1,0 +1,14 @@
+.user_profile_scene {
+    margin-top: 34px;
+    margin-bottom: 64px;
+    min-height: calc(100vh - (34px + 64px));
+
+    .form_wrapper {
+        width: 498px;
+        margin: 0 auto;
+        background: #fff;
+        padding: 25px 60px 30px 60px;
+        box-shadow: 0 2px 42px rgba(0, 0, 0, 0.111233);
+        border-radius: 7px;
+    }
+}

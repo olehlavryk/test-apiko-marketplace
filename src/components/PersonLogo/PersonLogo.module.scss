@@ -1,0 +1,28 @@
+.viewer_box {
+
+    a {
+        text-decoration: none;
+    }
+
+    .viewer_avatar {
+      border-radius: 50%;
+      position: relative;
+      z-index: 1;
+    }
+
+    .viewer_without_avatar {
+      border-radius: 50%;
+      background: #F1C40F;
+      color: rgba(19, 15, 2, 0.72);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      z-index: 1;
+
+      a {
+        text-decoration: none;
+      }
+
+    }
+  }

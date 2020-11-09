@@ -1,0 +1,39 @@
+.products_saved_scene {
+    padding-top: 33px;
+    padding-bottom: 82px;
+    background: #F2F2F2;
+    min-height: calc(100vh - (33px + 82px));
+
+    .products_count_title {
+        font-family: 'Rubik', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        color: #000000;
+        margin-bottom: 20px;
+
+        span {
+            color: #ccc;
+        }
+    }
+
+    .products_section {
+
+      .products_list {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        li {
+          width: calc(25% - 6px);
+          margin-bottom: 10px;
+        }
+      }
+    }
+
+    // Skeletons
+    .filter_bar_skeleton {
+      margin-bottom: 15px;
+    }
+  }

@@ -1,0 +1,167 @@
+.user_avatar_block {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 14px;
+
+  .user_avatar {
+    width: 95px;
+    height: 95px;
+    border-radius: 50%;
+    border: 3px solid #349A89;
+  }
+
+  .user_without_avatar {
+    width: 95px;
+    height: 95px;
+    border-radius: 50%;
+    font-size: 20px;
+    border: 3px solid #349A89;
+    background: #F1C40F;
+    color: rgba(19, 15, 2, 0.72);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.user_name {
+  width: 100%;
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  color: #141414;
+  margin-bottom: 4px;
+}
+
+.user_location {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  color: #9099A7;
+}
+
+.no_products {
+  text-align: center;
+}
+
+// Tabs
+.tabs_header {
+  margin-top: 27px;
+  display: flex;
+  justify-content: center;
+
+  .prime_green {
+    color: #3CB255;
+  }
+
+  .oceanic_blue {
+    color: #349A89;
+  }
+
+  .tab_item {
+    cursor: pointer;
+    border: 1px solid #EEEFF1;
+    min-width: 18%;
+    padding: 15px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-collapse: collapse;
+
+    &.active {
+      background: #349A89;
+      color: #fff !important;
+      position: relative;
+
+      &:after {
+        position: absolute;
+        bottom: 0;
+        left:0;
+        right:0;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: -8px;
+        content: '';
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 8px 8.5px 0 8.5px;
+        border-color: #349A89 transparent transparent transparent;
+      }
+
+      .prime_green {
+        color: #fff;
+      }
+
+      .oceanic_blue {
+        color: #fff;
+      }
+
+      .tab_subtitle {
+        color: #fff;
+      }
+    }
+
+    &:first-child {
+      border-right: none;
+    }
+
+    &:last-child {
+      border-left: none;
+    }
+
+    .tab_title {
+      font-family: 'Rubik', sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 22.1px;
+      line-height: 26px;
+      text-align: center;
+      margin-bottom: 2px;
+    }
+
+    .tab_subtitle {
+      font-family: 'Rubik', sans-serif;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 13px;
+      line-height: 15px;
+      text-align: center;
+      color: #9099A7;
+    }
+  }
+}
+
+.tab_panel_content {
+  padding: 18px 27px;
+}
+
+.products_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  li {
+    width: calc(25% - 12px);
+    margin-bottom: 10px;
+  }
+
+
+}
+
+// Skeletons
+.tabs_skeleton {
+  margin: 27px 0 18px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.products_block_skeleton {
+  padding: 0 27px;
+}
+
+

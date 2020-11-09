@@ -1,0 +1,76 @@
+.product {
+  background: #FFFFFF;
+  border: 1px solid #E4E4E4;
+  box-sizing: border-box;
+  box-shadow: 0 4px 14px rgba(121, 121, 121, 0.0527344);
+  border-radius: 4px;
+  padding: 3px;
+
+  .product_preview {
+    //min-width: 202px;
+    //min-height: 148px;
+    width: 100%;
+    height: 200px;
+    display: inline-block;
+    border-radius: 4px 4px 0 0;
+  }
+
+  .product_info {
+    padding: 6px 9px 9px 9px;
+    position: relative;
+
+    .product_title {
+      font-size: 16px;
+      line-height: 17px;
+      color: #373738;
+      text-decoration: none;
+      margin-bottom: 7px;
+      display: inline-block;
+    }
+
+    .product_price {
+      font-size: 20px;
+      line-height: 23px;
+      color: #101010;
+      font-weight: 600;
+    }
+
+    .product_like_wrap {
+      cursor: pointer;
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      right: 0;
+      top: 0;
+      padding: 7px;
+      margin-top: -18px;
+      margin-right: 4px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #FFFFFF;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.163407);
+      border-radius: 50%;
+      transition: all 300ms ease-in;
+
+      &:hover {
+
+        // todo fix color at hover
+
+      }
+
+      .product_like {
+
+
+      }
+    }
+
+    .product_like {
+      fill: #B7B7B7;
+
+      &:hover {
+        fill: red;
+      }
+    }
+  }
+}

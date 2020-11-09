@@ -1,0 +1,22 @@
+.seller_contact_form {
+
+    .form_row {
+        margin-bottom: 15px;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+    }
+
+    .errors_small {
+        font-size: 12px;
+        color: darkred;
+    }
+
+    .form_btn {
+        max-width: 375px;
+        margin: 0 auto;
+        display: inherit;
+    }
+
+}

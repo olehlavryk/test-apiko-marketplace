@@ -1,0 +1,24 @@
+.home_scene {
+  padding-top: 33px;
+  padding-bottom: 82px;
+  background: #F2F2F2;
+
+  .products_section {
+
+    .products_list {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+
+      li {
+        width: calc(25% - 6px);
+        margin-bottom: 10px;
+      }
+    }
+  }
+
+  // Skeletons
+  .filter_bar_skeleton {
+    margin-bottom: 15px;
+  }
+}

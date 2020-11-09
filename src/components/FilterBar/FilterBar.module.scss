@@ -1,0 +1,59 @@
+.filter_bar {
+  background: #FFFFFF;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.217111);
+  border-radius: 4px;
+  padding: 12px;
+  margin-bottom: 15px;
+
+  .product_filter_form {
+    display: flex;
+    align-items: center;
+
+
+    input[type=text], input[type=number] {
+      background: #F9FAFB;
+      border: 1px solid #DEDEE0;
+      box-sizing: border-box;
+      border-radius: 5px;
+      padding: 8px;
+      font-size: 14px;
+      line-height: 16px;
+      letter-spacing: 0.35px;
+      color: #505050;
+    }
+
+    select {
+      background: #F9FAFB;
+      border: 1px solid #DEDEE0;
+      box-sizing: border-box;
+      border-radius: 5px;
+      padding: 8px;
+      max-width: 285px;
+      width: 100%;
+      margin-right: 30px;
+      font-size: 14px;
+      line-height: 16px;
+      letter-spacing: 0.35px;
+      color: #505050;
+      position: relative;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      text-indent: 1px;
+      text-overflow: '';
+      background-image: url("data:image/svg+xml,%3Csvg width='16' height='10' viewBox='0 0 16 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M8.14256 7.62263L14.7307 0.206903C15.0092 -0.0569426 15.4723 -0.0701756 15.7649 0.177159C16.0576 0.424494 16.0691 0.838996 15.7904 1.10284L9.06588 8.67222C8.86861 8.85905 8.57881 8.92028 8.32251 8.85227C8.03055 9.06765 7.59773 9.0531 7.32469 8.80862C7.03436 8.54867 0.217836 1.35396 0.217836 1.35396C-0.072612 1.09414 -0.072612 0.672842 0.217836 0.412901C0.508284 0.153081 0.978876 0.153081 1.26934 0.412901L8.14256 7.62263Z' fill='%23666666'/%3E%3C/svg%3E%0A");
+      background-position: right 5px top 50%;
+      background-color: #F9FAFB;
+      background-repeat: no-repeat;
+    }
+
+
+    select::-ms-expand {
+      display: none;
+    }
+
+    .input_separator {
+      color: #DEDEE0;
+      margin: 0 7px;
+    }
+  }
+}

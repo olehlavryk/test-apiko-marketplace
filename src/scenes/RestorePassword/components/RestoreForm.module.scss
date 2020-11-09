@@ -1,0 +1,25 @@
+.restore_form {
+  margin-top: 32px;
+}
+
+.form_row {
+  margin-bottom: 15px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.errors_small {
+  font-size: 12px;
+  color: darkred;
+}
+
+.success_small {
+  font-size: 12px;
+  color: #349A89;
+}
+
+.register_btn {
+  margin-top: 17px;
+}

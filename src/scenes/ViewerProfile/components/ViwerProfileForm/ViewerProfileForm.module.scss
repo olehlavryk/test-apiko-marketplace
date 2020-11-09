@@ -1,0 +1,80 @@
+.viewer_form {
+    margin-top: 21px;
+
+    input[type=text] {
+        color: #000;
+    }
+
+    .viewer_box {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+
+        .viewer_avatar {
+            width: 102px;
+            height: 102px;
+            border-radius: 50%;
+        }
+
+        .viewer_without_avatar {
+            width: 102px;
+            height: 102px;
+            border-radius: 50%;
+            background: #F1C40F;
+            color: rgba(19, 15, 2, 0.72);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 30px;
+        }
+
+        .upgrade_photo_box {
+            margin-bottom: 15px;
+
+            .file_input {
+                display: none;
+            }
+
+            .upgrade_user_photo_btn {
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: 300;
+                font-size: 13px;
+                line-height: 15px;
+                text-align: center;
+                letter-spacing: 0.4px;
+                color: #349A89;
+                background: #fff;
+                padding: 2px 7px 4px 7px;
+                border: 1px solid #349A89;
+                position: relative;
+                top: -5px;
+                transition: all 200ms ease-in;
+
+                &:hover {
+                    border: 1px solid #349A89;
+                    background: #349A89;
+                    color: #fff;
+                }
+            }
+        }
+      }
+}
+
+.form_row {
+    margin-bottom: 15px;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+.errors_small {
+    font-size: 12px;
+    color: darkred;
+}
+
+.success_small {
+    font-size: 12px;
+    color: #349A89;
+  }

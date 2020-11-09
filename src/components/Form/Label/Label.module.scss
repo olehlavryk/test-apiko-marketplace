@@ -1,0 +1,19 @@
+.formLabel {
+  display: block;
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.3px;
+  color: #303030;
+  font-weight: 600;
+  margin-bottom: 4px;
+
+  .required_star {
+    font-size: 12px;
+    color: darkred;
+    display: inline-block;
+    margin-left: 3px;
+    position: relative;
+    top: -2px;
+  }
+}

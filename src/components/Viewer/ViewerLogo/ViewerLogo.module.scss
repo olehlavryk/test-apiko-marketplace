@@ -1,0 +1,19 @@
+.viewer_box {
+
+  .viewer_avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+
+  .viewer_without_avatar {
+    width: 40px;
+    height: 38px;
+    border-radius: 50%;
+    background: #F1C40F;
+    color: rgba(19, 15, 2, 0.72);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,30 @@
+.add_to_favorite_btn {
+    background-color: transparent;
+    border: 1px solid #349A89;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #535353;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    & > span {
+      margin-left: 12px;
+    }
+  }
+
+  .favorited_btn {
+    background-color: transparent;
+    border: 1px solid #349A89;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #349A89;
+
+    & > span {
+      margin-left: 12px;
+    }
+  }
